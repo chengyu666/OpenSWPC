@@ -1,0 +1,10 @@
+nohup: ignoring input
+Start from job 0.
+[job 0].
+Modified source from:   0.0   0.0   0.6  0.10  0.110    1.0    245.0   59.0   88.0
+ to: 0.0   0.0   0.6  0.10  0.110    1.0    245.0   59.0   88.0
+run cmd: mpirun --bind-to hwthread --map-by hwthread -n 36 --host localhost:40 ../bin/swpc_3d.x -i input_fcy.inf
+Log file: joblog/20250529_113331.log
+Submitted job: 9114 @ 2025-05-29 11:33:31
+Job 9114 is running
+........

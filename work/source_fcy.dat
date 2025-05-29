@@ -1,0 +1,20 @@
+#                                                                            -*- mode:sh -*-
+# source.dat
+#
+# seismic source data; there are 8 different formats by
+# (x-y|lon-lat) x (seismic moment|moment magnitude) x (moment tensor|strike-rake-dip)
+#
+# Lines starting from '#' and blank line will be omitted.
+# Please choose one of the following format, and remove (or comment out) the remaining.
+#
+# Multiple line of the source will be treated as multiple sources.
+# This maybe useful when one incorporate kinematic finite-sized fault.
+
+
+#
+# format 'xymwdc': xy, moment magnitude, double couple angles
+#
+#    x     y     z  tbeg  trise    mag   strike    dip   rake
+# --------------------------------------------------------------------------------------------
+   0.0   0.0   0.6  0.10  0.110    1.0    245.0   59.0   88.0
+
